@@ -1,1 +1,53 @@
 // Unity Scene Placeholder
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Layer: 0
+  m_IsActive: 1
+  m_Component:
+  - component: {fileID: 100001}
+  - component: {fileID: 100002}
+  - component: {fileID: 100003}
+  m_Transform: {fileID: 100004}
+--- !u!20 &100002
+Camera:
+  m_ObjectHideFlags: 0
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.2, g: 0.2, b: 0.25, a: 0}
+  m_NormalizedViewPortRect:
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  m_Depth: -1
+  m_CullingMask: -1
+  m_TargetDisplay: 0
+--- !u!4 &100004
+Transform:
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+--- !u!108 &100003
+AudioListener:
+  m_ObjectHideFlags: 0
+--- !u!1 &200000
+GameObject:
+  m_Name: Directional Light
+  m_Component:
+  - component: {fileID: 200001}
+  - component: {fileID: 200002}
+  m_Layer: 0
+  m_IsActive: 1
+--- !u!4 &200001
+Transform:
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 1}
+  m_LocalScale: {x: 1, y_
